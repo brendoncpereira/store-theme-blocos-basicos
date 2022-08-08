@@ -1,0 +1,77 @@
+{
+    "flex-layout.row#top-bar": {
+    
+        "props": {
+            "blockClass": "wrapper__top-bar"
+        },
+
+        "children": [   
+            "flex-layout.col#left",        
+            "flex-layout.col#right"
+        ] 
+    },
+
+    "flex-layout.col#left": {
+
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-left"]
+        },
+        
+        "children": [
+            "rich-text#email-text",
+            "rich-text#phone-text"   
+        ]
+
+    },
+
+
+    "flex-layout.col#right": {
+
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-right"]
+        },
+
+        "children": [
+            "rich-text#login-text",
+            "rich-text#wishlist-text",
+            "rich-text#cart-text"
+        ]
+    },
+
+    "rich-text#email-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "email__top-bar"],
+            "text": "![email](assets/img/top-bar/email.png)loremipsum@gmail.com"
+        }
+    },
+
+    "rich-text#phone-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "phone__top-bar"],
+            "text": "![phone](assets/img/top-bar/phone.png)+55 (14) 0000-0000"
+        }
+    },   
+
+    "rich-text#login-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "login__top-bar"],
+            "text": "![login](assets/img/top-bar/login.png)Login"
+        }
+    },
+
+    "rich-text#wishlist-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "wishlist__top-bar"],
+            "text": "![wishlist](assets/img/top-bar/wishlist.png)Wishlist"
+        }
+    },
+    
+    "rich-text#cart-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "cart__top-bar"],
+            "text": "![cart](assets/img/top-bar/minicart.png)"
+        }
+    }
+
+
+}
