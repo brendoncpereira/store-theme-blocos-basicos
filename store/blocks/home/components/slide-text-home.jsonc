@@ -1,0 +1,54 @@
+{
+    "slider-layout-group#text-group": {
+        "children": ["slider-layout#slider-text-start", "slider-layout#slider-text-end"]
+    },
+    
+    "slider-layout#slider-text-start": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1     
+            },
+
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        },
+        
+        "children": [
+            "rich-text#text01", "rich-text#text02", "rich-text#text03"]
+    },
+
+    "slider-layout#slider-text-end": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1     
+            },
+
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        },
+
+        "children": ["rich-text#text01", "rich-text#text02", "rich-text#text03"]
+    },
+
+    "rich-text#text01": {
+        "props": {
+            "text": "# Item 1"
+        }
+    },
+
+    "rich-text#text02": {
+        "props": {
+            "text": "# Item 2"
+        }
+    },
+
+    "rich-text#text03": {
+        "props": {
+            "text": "# Item 3"
+        }
+    }
+}

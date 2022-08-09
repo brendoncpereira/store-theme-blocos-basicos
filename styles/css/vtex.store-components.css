@@ -6,7 +6,7 @@
   text-decoration: underline;
 }
 
-.infoCardContainer--info-card-home {
+.infoCardContainer--info-card- {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
@@ -72,10 +72,10 @@
   .label {
      font-size: 40px;
   }
-  .infoCardContainer--info-card-home .infoCardTextContainer {
+  .infoCardContainer--info-card- .infoCardTextContainer {
     width: 30%;
   }
-  .infoCardContainer--info-card-home .infoCardImageContainer {
+  .infoCardContainer--info-card- .infoCardImageContainer {
     width: 70%;
   }
   .imageElement--storePrint {

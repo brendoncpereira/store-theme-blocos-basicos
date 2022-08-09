@@ -114,7 +114,7 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-",
       "menu-item#more"
     ],
     "props": {

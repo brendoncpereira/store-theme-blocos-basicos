@@ -1,14 +1,31 @@
 {
   "flex-layout.row#deals": {
+    "children": ["slider-layout#deals_slider"],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "slider-layout#deals_slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": { "timeout": 2000 }
+    },
+
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
       "flex-layout.col#deals3",
       "flex-layout.col#deals4"
-    ],
-    "props": {
-      "blockClass": "deals"
-    }
+    ]
   },
 
   "flex-layout.col#deals1": {

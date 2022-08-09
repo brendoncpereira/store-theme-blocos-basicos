@@ -62,7 +62,7 @@
     "rich-text#wishlist-text": {
         "props": {
             "blockClass": ["text__top-bar", "wishlist__top-bar"],
-            "text": "![wishlist](assets/img/top-bar/wishlist.png)Wishlist"
+            "text": "Wishlist![wishlist](assets/img/top-bar/wishlist.png)"
         }
     },
     

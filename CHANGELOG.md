@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Benefits bar color to improve contrast.
 
 ### Added
-- Fold block in home page.
+- Fold block in  page.
 - Pre-load prop in `list-context.image-list#demo`.
 - `image-rendering: -webkit-optimize-contrast` in vtex.store-components.css file.
 - min-height:450px in `sliderLayoutContainer--carousel` in vtex.slider-layout.css file.
@@ -27,10 +27,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Height in `logo#mobile` and  `logo#desktop`.
 
 ### Removed
-- `__fold__.experimentalLazyAssets` from home page.
+- `__fold__.experimentalLazyAssets` from  page.
 - Margin-bottom and padding-bottom from `flexRow--deals .flexCol` in vtex.flex-layout.css file.
 - `flex-layout.row#2-desktop` block from header-layout.desktop.
-- `notification.bar#home` from header.
+- `notification.bar#` from header.
 
 ## [5.0.0] - 2022-05-25
 
@@ -142,7 +142,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.32.0] - 2020-03-20
 ### Changed
-- Use `__fold__.experimentalLazyAssets` on home.
+- Use `__fold__.experimentalLazyAssets` on .
 
 ## [3.31.0] - 2020-03-19
 ### Added
@@ -156,7 +156,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.28.0] - 2020-03-05
 ### Added
-- `__fold__` blocks on home.
+- `__fold__` blocks on .
 - `aspectRatio` prop on `product-images`.
 
 ## [3.27.0] - 2020-03-03
@@ -241,7 +241,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.19.2] - 2019-12-16
 ### Fixed
-- `minItemsPerPage` prop in `shelf#home` block.
+- `minItemsPerPage` prop in `shelf#` block.
 
 ## [3.19.1] - 2019-12-03
 
@@ -336,7 +336,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- New props (`minItemsPerPage` and `paginationDotsVisibility`) for the Shelf component to `shelf#home`.
+- New props (`minItemsPerPage` and `paginationDotsVisibility`) for the Shelf component to `shelf#`.
 
 ## [3.9.1] - 2019-08-14
 
@@ -648,7 +648,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fix carousel position in home page.
+- Fix carousel position in  page.
 
 ## [1.12.0] - 2018-08-24
 

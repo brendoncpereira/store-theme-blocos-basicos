@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-",
       "menu-item#more"
     ]
   },
@@ -90,18 +90,18 @@
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": " & Decor",
+        "text": " & Decor"
       }
     }
   },
@@ -133,20 +133,11 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      
     ]
   },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
+  
+  
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"
