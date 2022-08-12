@@ -1,11 +1,11 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout-group#text-group",
-      "list-context.image-list#banner",
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf"
+      // "slider-layout-group#text-group",
+      // "list-context.image-list#banner",
+      // "flex-layout.row#deals",
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf"
     ]
   }
 }

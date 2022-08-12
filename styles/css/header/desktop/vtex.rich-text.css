@@ -1,24 +1,14 @@
-
-.paragraph--text__top-bar, .link--text__top-bar {
-    font-size: 16px;
-    color: #F8F8FF;
-    font-family: 'JosefinSans';
+.wrapper--textTopBar {
+    color: #B1B3B3;
+    font-size: 12px;
+    margin-top: -4px;
 }
 
-.wrapper--text__top-bar {
-    margin-right: 30px;
-    display: flex;
-    align-items: center;
-    height: 44px;
+.wrapper--rightFirstLink,
+.wrapper--rightSecLink {
+    text-transform: uppercase;
 }
 
-.wrapper--cart__top-bar,
-.paragraph--text__top-bar {
-    margin: 0;
+.wrapper--rightMiddleBar {
+    margin: -4px 0.5rem;
 }
-
-.image--text__top-bar {
-    margin-right: 6px;
-}
-
-
