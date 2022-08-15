@@ -1,0 +1,11 @@
+
+.flexRowContent--main-header {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.flexCol--searchBarWrapper {
+    margin: 0 3rem;
+}
+

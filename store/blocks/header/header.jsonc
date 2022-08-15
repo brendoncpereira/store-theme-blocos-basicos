@@ -59,7 +59,7 @@
       "flex-layout.col#logo-desktop",
       // "flex-layout.col#category-menu",
       // "flex-layout.col#spacer",
-      "search-bar#header",
+      "flex-layout.col#search-bar-wrapper",
       // "locale-switcher",
       "link#customer-service",
       "login",
@@ -67,9 +67,18 @@
     ]
   },
 
+  "flex-layout.col#search-bar-wrapper": {
+    "props": {
+      "blockClass": "searchBarWrapper"
+    },
+
+    "children": ["search-bar#header"]
+  },
+
   "search-bar#header": {
     "props": {
-      "placeholder": "O que você procura?"
+      "placeholder": "O que você procura?",
+      "blockClass": "inputSearchBar"
     }
   },
 
@@ -82,7 +91,8 @@
 
  "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "wrapperLogo"
     },
     "children": ["logo#desktop"]
   },
