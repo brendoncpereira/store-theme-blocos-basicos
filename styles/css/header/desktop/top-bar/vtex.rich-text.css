@@ -1,0 +1,13 @@
+.wrapper--textTopBar {
+    color: #B1B3B3;
+    font-size: 12px;
+}
+
+.wrapper--rightFirstLink,
+.wrapper--rightSecLink {
+    text-transform: uppercase;
+}
+
+.wrapper--rightMiddleBar {
+    margin: 0 0.5rem;
+}
