@@ -124,11 +124,8 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#main-header-mobile",
+      "flex-layout.col#search-bar-wrapper"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -139,6 +136,19 @@
   },
   "drawer": {
     "children": ["menu#drawer"]
+  },
+
+  "flex-layout.col#main-header-mobile": {
+
+    "props": {
+      "blockClass": "MainRowHeaderMobile"
+    },
+
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "minicart.v2"
+    ]
   },
 
   "menu#drawer": {
@@ -156,9 +166,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/img/logos/logo-avanti-color.png",
+      "width": 176,
+      "height": 30
     }
   }
 }
