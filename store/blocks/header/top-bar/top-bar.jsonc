@@ -35,7 +35,7 @@
 
     "rich-text#left-text": {
         "props": {
-            "text": "Frete grátis acima de R$299,00 para a região Sudoeste.",
+            "text": "Frete grátis acima de R$299,00 para Região Sudoeste.",
             "blockClass": ["textTopBar", "leftText"]
         }
     },
@@ -60,5 +60,11 @@
             "text": "Seja um representante",
             "blockClass": ["textTopBar", "rightSecLink"]
         }
+    },
+
+    "responsive-layout.mobile#top-bar": {
+        "children": []
+
+       
     }
 }

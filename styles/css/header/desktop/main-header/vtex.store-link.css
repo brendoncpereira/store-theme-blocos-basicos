@@ -1,7 +1,13 @@
-.label, .link{
+.link {
+   color: #000;
+}
+
+.label--customerService{
    font-size: 14px;
    line-height: 17px;
    color: #000;
    text-align: center;
 }
+
+
 

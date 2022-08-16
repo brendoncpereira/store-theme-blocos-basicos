@@ -9,7 +9,6 @@
     "children": [
       "flex-layout.row#top-bar",
       "flex-layout.row#1-desktop",
-      // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -21,25 +20,6 @@
     }
   },
   
-  // "flex-layout.row#3-desktop": {
-  //   "props": {
-  //     "blockClass": "menu-link",
-  //     "horizontalAlign": "center",
-  //     "preventHorizontalStretch": true,
-  //     "preventVerticalStretch": true,
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "vtex.menu@2.x:menu#websites",
-  //     "flex-layout.col#spacer",
-  //     "vtex.menu@2.x:menu#institutional"
-  //   ]
-  // },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -57,10 +37,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      // "flex-layout.col#category-menu",
-      // "flex-layout.col#spacer",
       "flex-layout.col#search-bar-wrapper",
-      // "locale-switcher",
       "link#customer-service",
       "login",
       "minicart.v2"
@@ -85,7 +62,8 @@
   "link#customer-service": {
     "props": {
       "link": "#",
-      "label": "Atendimento ao cliente"
+      "label": "Atendimento ao cliente",
+      "blockClass": "customerService"
     }
   },
 
@@ -112,10 +90,6 @@
     }
   },
 
-
-
-  
-
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -124,6 +98,7 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
+      "flex-layout.row#top-bar",
       "flex-layout.col#main-header-mobile",
       "flex-layout.col#search-bar-wrapper"
     ],

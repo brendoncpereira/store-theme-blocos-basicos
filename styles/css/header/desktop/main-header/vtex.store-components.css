@@ -21,6 +21,7 @@
     border: none;
     border-radius: 0;
   }
+  
 
   .suffixWrapper {
     background-color: #441AFA;
@@ -31,11 +32,19 @@
   }
 
   @media screen and (max-width: 1025px) {
-    .autoCompleteOuterContainer {
-        width: 371px;
-    }
-
     
+      .autoCompleteOuterContainer {
+        width: 23.188rem;
+        margin-top: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .autoCompleteOuterContainer {
+      width: 100vw;
+      padding: 0 1rem;
+      margin-top: 0.5rem;    
+    }
   }
 
 

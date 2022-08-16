@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    overflow: hidden;
+    padding: 0;
 }
 
 .flexCol--MainRowHeaderMobile {
@@ -12,6 +13,24 @@
     justify-content: space-between;
     flex-direction: row;
     width: 100vw;
-    padding: 0 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 1025px) {
+    
+
+    .flexCol--searchBarWrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .flexCol--searchBarWrapper {
+        width: 100vw;
+        
+    }
 }
 
