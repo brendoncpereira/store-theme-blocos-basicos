@@ -39,9 +39,8 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar-wrapper",
       "link#customer-service",
-      "login",
-      "minicart.v2"
-    ]
+      "flex-layout.col#login-minicart-wrapper"
+    ] 
   },
 
   
@@ -68,9 +67,18 @@
     }
   },
 
-  
+  "flex-layout.col#login-minicart-wrapper": {
+    "props": {
+      "blockClass": "loginMinicartWrapper"
+    },
 
- "flex-layout.col#logo-desktop": {
+    "children": [
+      "login", 
+      "minicart.v2"]
+  },
+
+
+  "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
       "blockClass": "wrapperLogo"
@@ -144,9 +152,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/logos/logo-avanti-color.png",
-      "width": 176,
-      "height": 30
+      "url": "assets/img/logos/logo-avanti-color.png"
     }
   }
 }

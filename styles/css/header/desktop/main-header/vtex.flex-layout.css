@@ -1,11 +1,18 @@
-
 .flexRowContent--main-header {
     align-items: center;
-    width: 100%;
     justify-content: center;
 }
 
 .flexCol--searchBarWrapper {
     margin: 0 3rem;
+}
+
+.flexCol--loginMinicartWrapper {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+
 }
 

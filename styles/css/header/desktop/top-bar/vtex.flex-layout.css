@@ -7,13 +7,13 @@
 
 .flexRowContent--wrapper__top-bar {
     background-color: #25282A;
-    height: 32px;
     align-items: center;
+    height: 32px;
 }
 
 .flexCol--wrapper__col {
     flex-direction: row;
-    height: 100%;
+    
     padding: 0 1rem;    
 }
 

@@ -1,11 +1,17 @@
 .autoCompleteOuterContainer {
-    width: 42vw;
+    width: 30rem;
     height: 40px;
     padding: 0;
 }
 
 .logoContainer {
     padding: 0;
+    /* border: 1px solid red; */
+}
+
+.logoImage {
+  width: 200px;
+  height: 34px;
 }
 
 .searchBarIcon--inputSearchBar--search, .searchBarIcon--inputSearchBar--clear {
@@ -13,8 +19,6 @@
     color: #FFF;
     width: 48px; 
 }
-
-
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
     height: 40px;
@@ -28,7 +32,8 @@
     position: relative;
     left: 35%;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+
   }
 
   @media screen and (max-width: 1025px) {
@@ -36,6 +41,11 @@
       .autoCompleteOuterContainer {
         width: 23.188rem;
         margin-top: 0.5rem;
+    }
+
+    .logoImage {
+      width: 176px;
+      height: 30px;
     }
   }
 
