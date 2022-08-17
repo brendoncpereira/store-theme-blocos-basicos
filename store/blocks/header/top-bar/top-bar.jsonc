@@ -26,9 +26,9 @@
         },
 
         "children": [
-            "rich-text#first-link",
+            "link#first-link",
             "rich-text#middle-bar",
-            "rich-text#sec-link"
+            "link#sec-link"
             
         ]
     },
@@ -36,35 +36,33 @@
     "rich-text#left-text": {
         "props": {
             "text": "Frete grátis acima de R$299,00 para Região Sudoeste.",
-            "blockClass": ["textTopBar", "leftText"]
+            "blockClass": ["topBarText", "leftText"]
         }
     },
 
-    "rich-text#first-link": {
+    "link#first-link": {
         "props": {
-            "text": "Seja um revendedor",
-            "blockClass": ["textTopBar", "rightFirstLink"]
+            "link": "#",
+            "label": "Seja um revendedor",
+            "blockClass": ["topBarLink", "rightFirstLink"]
         }
     },
 
     "rich-text#middle-bar": {
         "props": {
             "text": "|",
-            "blockClass": ["textTopBar", "rightMiddleBar"]
+            "blockClass": ["topBarText", "rightMiddleBar"]
         }
     },
     
 
-    "rich-text#sec-link": {
+    "link#sec-link": {
         "props": {
-            "text": "Seja um representante",
-            "blockClass": ["textTopBar", "rightSecLink"]
+            "link": "#",
+            "label": "Seja um representante",
+            "blockClass": ["topBarLink", "rightSecLink"]
         }
-    },
-
-    "responsive-layout.mobile#top-bar": {
-        "children": []
-
-       
     }
+
+    
 }

@@ -44,6 +44,7 @@
     ]
   },
 
+  
   "flex-layout.col#search-bar-wrapper": {
     "props": {
       "blockClass": "searchBarWrapper"
@@ -66,6 +67,8 @@
       "blockClass": "customerService"
     }
   },
+
+  
 
  "flex-layout.col#logo-desktop": {
     "props": {
@@ -90,7 +93,7 @@
     }
   },
 
-  "header-layout.mobile": {
+ "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {

@@ -14,7 +14,7 @@
 .flexCol--wrapper__col {
     flex-direction: row;
     height: 100%;
-    padding: 0 4rem;    
+    padding: 0 1rem;    
 }
 
 .flexCol--wrapper__col-left {
@@ -23,6 +23,7 @@
 
 .flexCol--wrapper__col-right {
     justify-content: right;
+    align-items: center;
 }
 
 

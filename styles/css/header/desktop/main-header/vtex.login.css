@@ -1,0 +1,9 @@
+:global(.vtex-login-2-x-container) :global(.vtex-button){
+    background: url(assets/img/icons/user-icon.png) no-repeat center center;
+
+}
+
+.label {
+    display: none;
+}
+
